@@ -1,14 +1,12 @@
-/*importing fonts*/
-<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+/*Imorted Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
-/*Grid*/
-/*form, nav, button, cards, images..*/
 /* Components to import*/
 
 @import url("avatar.css");
 @import url("button.css");
 
-/*FRAMEWORK*/
 body {
     font-family: 'Nunito', sans-serif;
 }
@@ -17,6 +15,7 @@ h1, h2, h3 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+/*FRAMEWORK-Basic Grid*/
 
 .container {
     width: 100%;
@@ -25,6 +24,14 @@ h1, h2, h3 {
     margin-right: auto;
     margin-left: auto;
 }
+
+.container-fluid {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
 @media (min-width: 479px) {
     .container {
@@ -50,53 +57,161 @@ h1, h2, h3 {
     }
 }
 
-row {
+.row{
+    margin: 2em auto;
     width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+    }
+.col-1 {
+    width:10%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
-col-1 {
-    width: 10%;
+.col-2 {
+    width:20%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
-col-2 {
-    width: 20%;
+.col-3 {
+    width:30%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
-col-3 {
-    width: 30%;
-}
-
-col-4 {
+.col-4 {
     width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
 }
 
-col-5 {
+.col-5 {
+    width:50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.col-6 {
+    width:60%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.col-7 {
+    width:70%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.col-8 {
+    width:80%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.col-9 {
+    width:90%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.col-10 {
+    width:100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+@media (max-width:576px){
+    .sm-0{
+    display: none;
+    }
+    .sm-25{
+    height: 100%;
+    width: 25%;
+    flex-basis: 25%;
+    }
+    .sm-50{
+    height: 100%;
     width: 50%;
-}
-
-col-6 {
-    width: 60%;
-}
-
-col-7 {
-    width: 70%;
-}
-
-col-8 {
-    width: 80%;
-}
-
-col-9 {
-    width: 90%;
-}
-
-col-10 {
+    flex-basis: 50%;
+    }
+    .sm-75{
+    height: 100%;
+    width: 75%;
+    flex-basis: 75%;
+    }
+    .sm-100{
     width: 100%;
+    height: 100%;
+    flex-basis:100%;
+    }
 }
 
 
-
-
-navbar {
-
-}
