@@ -1,0 +1,102 @@
+/*importing fonts*/
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+/*Grid*/
+/*form, nav, button, cards, images..*/
+/* Components to import*/
+
+@import url("avatar.css");
+@import url("button.css");
+
+/*FRAMEWORK*/
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 479px) {
+    .container {
+        max-width: 431px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 944px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1152px;
+    }
+}
+
+row {
+    width: 100%;
+}
+
+col-1 {
+    width: 10%;
+}
+
+col-2 {
+    width: 20%;
+}
+
+col-3 {
+    width: 30%;
+}
+
+col-4 {
+    width: 40%;
+}
+
+col-5 {
+    width: 50%;
+}
+
+col-6 {
+    width: 60%;
+}
+
+col-7 {
+    width: 70%;
+}
+
+col-8 {
+    width: 80%;
+}
+
+col-9 {
+    width: 90%;
+}
+
+col-10 {
+    width: 100%;
+}
+
+
+
+
+navbar {
+
+}
