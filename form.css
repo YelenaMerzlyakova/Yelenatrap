@@ -1,0 +1,42 @@
+/*.field_set{
+    border-color:2px solid #F00;
+    border: 2px;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}*/
+
+
+body, form {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+
+fieldset {
+  border: 2px solid;
+  border-color: #081551;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  border-radius: 3%;;
+}
+legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  font-weight: bold;
+  color: #081551;
+  border: 2px solid white;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1em;
+}

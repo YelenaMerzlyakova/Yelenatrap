@@ -6,6 +6,7 @@
 
 @import url("avatar.css");
 @import url("button.css");
+@import url("form.css");
 
 body {
     font-family: 'Nunito', sans-serif;
@@ -33,7 +34,7 @@ h1, h2, h3 {
     margin-left: auto;
   }
 
-@media (min-width: 479px) {
+/*@media (min-width: 479px) {
     .container {
         max-width: 431px;
     }
@@ -212,6 +213,6 @@ h1, h2, h3 {
     height: 100%;
     flex-basis:100%;
     }
-}
+}*/
 
 
