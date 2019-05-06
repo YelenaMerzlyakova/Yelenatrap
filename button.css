@@ -105,7 +105,7 @@
 
 
 .btn-xl {
-  background: #d8153f;
+  background: #d30442;
   color:#fff;
   border:none;
   position:relative;
@@ -115,10 +115,11 @@
   transition:800ms ease all;
   outline:none;
   text-decoration: none;
+  border-radius: 5px 5px 5px 5px;
 }
 .btn-xl:hover{
   background:#fff;
-  color: #d8153f;
+  color: #d30442;
   text-decoration: none;
 }
 .btn-xl:before,.btn-xl:after{
@@ -128,7 +129,7 @@
   right:0;
   height:2px;
   width:0;
-  background: #d8153f;
+  background: #d30442;
   transition:400ms ease all;
 }
 .btn-xl:after{

@@ -1,15 +1,20 @@
 /*Imorted Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">")
 
 /* Components to import*/
 
 @import url("avatar.css");
 @import url("button.css");
 @import url("form.css");
+@import url("navbar.css");
+@import url("searchbar.css");
+@import url("grid.css");
 
 body {
     font-family: 'Nunito', sans-serif;
+    width: 100%;
 }
 
 h1, h2, h3 {
@@ -18,7 +23,7 @@ h1, h2, h3 {
 
 /*FRAMEWORK-Basic Grid*/
 
-.container {
+/*.container {
     width: 100%;
     padding-right: 5px;
     padding-left: 5px;
@@ -34,7 +39,7 @@ h1, h2, h3 {
     margin-left: auto;
   }
 
-/*@media (min-width: 479px) {
+@media (min-width: 479px) {
     .container {
         max-width: 431px;
     }

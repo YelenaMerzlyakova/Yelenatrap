@@ -1,8 +1,11 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #081551;
     position: fixed;
-    width: 100%;
+    width: 100vw;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+    top: 0;
 }
 
 .navbar a {
@@ -10,7 +13,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
 
@@ -31,5 +34,13 @@ span.anchor {
 }
 
 .item {
-    height: 500px;
+    height: 100vh;
+    /*margin-top: 5em;*/
+    text-align: center;
+}
+
+.form {
+    height: 100vh;
+    /*margin-top: 5em;*/
+    text-align: center;
 }
